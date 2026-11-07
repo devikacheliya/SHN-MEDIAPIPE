@@ -23,8 +23,6 @@ Laptop webcam
 
 
 
-(couldn't get veggies hehe)
-
 ### ✨ Cool Things It Does
 
 -Real-time HSV color masking to calculate green vs. red produce ripeness ratios
