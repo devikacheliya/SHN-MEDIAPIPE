@@ -13,14 +13,15 @@ An automated computer vision tool that uses a webcam feed to inspect produce (li
 Python 3.12, OpenCV (cv2), NumPy, MediaPipe Tasks API, VS Code, PowerShell
 
 ### 👥 The Humans Behind It
-- devikacheliya
-- anjuniranjana21-design
+-  Devika [devikacheliya]
+- Niranjana [anjuniranjana21-design]
 
 ### ⚙️ Hardware Corner
 Laptop webcam
 
 ### 📸 Show Us What You Built!
-[Add screenshots, photos, GIFs or demo video links here.]
+<img width="425" height="427" alt="image" src="https://github.com/user-attachments/assets/c723f390-ce7d-49a8-bc85-f845e78ecca9" />
+(couldn't get veggies hehe)
 
 ### ✨ Cool Things It Does
 
