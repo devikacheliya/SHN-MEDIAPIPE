@@ -1,9 +1,9 @@
 # SHN-MEDIAPIPE
 ![Project Cover](assets/cover.jpeg)
-#  [Your Project Name]
+#  AgriVision: Produce Ripeness & Defect Grader
 
 ### 💡 What's the idea?
-[Tell us what you built and what it does. Keep it short!]
+An automated computer vision tool that uses a webcam feed to inspect produce (like tomatoes or apples), measure their size in millimeters, detect surface defects, and grade their quality in real time.
 
 ### 🌐 Check it out!
 - **Live Website:** [Drop your link here / N/A]
