@@ -19,7 +19,8 @@ Python 3.12, OpenCV (cv2), NumPy, MediaPipe Tasks API, VS Code, PowerShell
 Laptop webcam
 
 ### 📸 Show Us What You Built!
-<img width="425" height="427" alt="image" src="https://github.com/user-attachments/assets/c723f390-ce7d-49a8-bc85-f845e78ecca9" />
+<img width="1600" height="852" alt="WhatsApp Image 2026-11-07 at 10 55 53 PM" src="https://github.com/user-attachments/assets/92bc6ccb-425c-42db-8552-5904edff4ea5" />
+
 
 
 (couldn't get veggies hehe)
