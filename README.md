@@ -7,7 +7,7 @@ An automated computer vision tool that uses a webcam feed to inspect produce (li
 
 ### 🌐 Check it out!
 - **Live Website:** [Drop your link here / N/A]
-- **GitHub Repo:** [Drop your repository link here]
+- **GitHub Repo:** https://github.com/devikacheliya/SHN-MEDIAPIPE/tree/main
 
 ### 🛠️ What did you use?
 Python 3.12, OpenCV (cv2), NumPy, MediaPipe Tasks API, VS Code, PowerShell
