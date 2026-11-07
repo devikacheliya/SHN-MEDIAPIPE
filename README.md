@@ -10,22 +10,25 @@ An automated computer vision tool that uses a webcam feed to inspect produce (li
 - **GitHub Repo:** [Drop your repository link here]
 
 ### 🛠️ What did you use?
-[Tech stack, tools, frameworks, libraries, etc.]
+Python 3.12, OpenCV (cv2), NumPy, MediaPipe Tasks API, VS Code, PowerShell
 
 ### 👥 The Humans Behind It
-- [Name – GitHub Username]
-- [Name – GitHub Username]
+- devikacheliya
+- anjuniranjana21-design
 
 ### ⚙️ Hardware Corner
-[What hardware did you use? / N/A]
+Laptop webcam
 
 ### 📸 Show Us What You Built!
 [Add screenshots, photos, GIFs or demo video links here.]
 
 ### ✨ Cool Things It Does
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
+
+-Real-time HSV color masking to calculate green vs. red produce ripeness ratios
+
+-Bounding contour extraction (cv2.contourArea) to estimate fruit diameter in millimeters
+
+-Automated quality control logic that overlays live badges ("Grade A", "Grade B", "Reject") on video feed based on defect percentages
 
 ---
 
