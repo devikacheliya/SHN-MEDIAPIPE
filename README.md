@@ -6,7 +6,6 @@
 An automated computer vision tool that uses a webcam feed to inspect produce (like tomatoes or apples), measure their size in millimeters, detect surface defects, and grade their quality in real time.
 
 ### 🌐 Check it out!
-- **Live Website:** [Drop your link here / N/A]
 - **GitHub Repo:** https://github.com/devikacheliya/SHN-MEDIAPIPE/tree/main
 
 ### 🛠️ What did you use?
