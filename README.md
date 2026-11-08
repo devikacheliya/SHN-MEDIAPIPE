@@ -1,4 +1,5 @@
 # AgriVision on Vercel
+to try it out use this link: https://agrivision-seven-dun.vercel.app
 
 Browser webcam frontend + Python/Flask/OpenCV backend for **AgriVision: Produce
 Ripeness & Defect Grader**.
