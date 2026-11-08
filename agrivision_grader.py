@@ -280,8 +280,11 @@ def analyze_frame(frame):
 # ---------------------------------------------------------------------------
 # 4. ON-SCREEN UI
 # ---------------------------------------------------------------------------
-def draw_scene(frame, result):
-    """Draw the produce outline, measurements, and the grade panel on a frame."""
+def draw_scene(frame, result, footer_text=None):
+    """Draw the produce outline, measurements, and the grade panel on a frame.
+
+    footer_text replaces the desktop quit hint when reused by the web app.
+    """
     height, width = frame.shape[:2]
 
     # Scale the overlay up/down with the webcam resolution.
@@ -400,15 +403,19 @@ def draw_scene(frame, result):
             (200, 200, 200), max(1, int(round(1.5 * scale))), cv2.LINE_AA
         )
 
-    # Helpful hint along the bottom of the window.
-    hint = "AgriVision  |  Q / Esc = quit  |  Use one item on a plain background"
-    hint_x, hint_y = px(20), height - px(18)
-    cv2.putText(frame, hint, (hint_x + 1, hint_y + 1),
-                cv2.FONT_HERSHEY_SIMPLEX, note_font, (0, 0, 0),
-                small_thick + 2, cv2.LINE_AA)
-    cv2.putText(frame, hint, (hint_x, hint_y),
-                cv2.FONT_HERSHEY_SIMPLEX, note_font,
-                (255, 255, 255), small_thick, cv2.LINE_AA)
+    # Helpful hint along the bottom of the window (or browser image).
+    if footer_text is None:
+        hint = "AgriVision  |  Q / Esc = quit  |  Use one item on a plain background"
+    else:
+        hint = footer_text
+    if hint:
+        hint_x, hint_y = px(20), height - px(18)
+        cv2.putText(frame, hint, (hint_x + 1, hint_y + 1),
+                    cv2.FONT_HERSHEY_SIMPLEX, note_font, (0, 0, 0),
+                    small_thick + 2, cv2.LINE_AA)
+        cv2.putText(frame, hint, (hint_x, hint_y),
+                    cv2.FONT_HERSHEY_SIMPLEX, note_font,
+                    (255, 255, 255), small_thick, cv2.LINE_AA)
 
 
 # ---------------------------------------------------------------------------
